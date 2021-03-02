@@ -1,6 +1,6 @@
 window.onload = (event) => {
 
-    var image_names = [
+    const image_names = [
         "img/1.JPG",
         "img/2.JPG",
         "img/3.JPG",
@@ -11,7 +11,9 @@ window.onload = (event) => {
 
     function attach_listeners() {
         var heading = document.querySelector("#title")
+        var splash_container = document.querySelector("#splash-container")
         heading.onclick = set_image
+        splash_container.onclick = set_image
     }
 
     function set_image() {
