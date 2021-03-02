@@ -34,6 +34,20 @@ html {
 #title {
   text-align: center;
   color: #F14252;
+  cursor: pointer;
+}
+
+#splash-container {
+  width: 65%;
+  margin: auto;
+}
+#splash-container img {
+  width: 100%;
+  height: auto;
+}
+
+.center {
+  text-align: center;
 }
 
 /*
